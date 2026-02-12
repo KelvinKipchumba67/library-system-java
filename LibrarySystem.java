@@ -113,7 +113,7 @@ public class LibrarySystem {
 
     public static void main(String[] args) {
         while (true) {
-            System.out.println("\n--- COSC 223 Library System ---");
+            System.out.println("\n Library System");
             System.out.println("1. Add Book\n2. Add Student\n3. Search Book\n4. Search Student\n5. Exit");
             System.out.print("Choice: ");
             int choice = scanner.nextInt();
