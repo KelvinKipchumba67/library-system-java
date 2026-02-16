@@ -124,6 +124,13 @@ public class LibrarySystem {
     private static ArrayList<Book> books = new ArrayList<>();
     private static ArrayList<Student> students = new ArrayList<>();
     private static Scanner scanner = new Scanner(System.in);
+    /*
+     * to take input from the console we use the scanner package, and to use the
+     * package we must create a Scanner object to be able to input everytime, to
+     * avoid having multiple instances of the Scanner object the above line of code
+     * creates an instance that is reused throughout the program
+     * it is private because it will only be used within the library class
+     */
 
     public static void main(String[] args) {
         while (true) {
