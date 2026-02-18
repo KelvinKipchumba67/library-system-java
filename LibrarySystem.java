@@ -112,7 +112,7 @@ class Student {
         return false;
     }
 
-    @Override // used to indicate the a method from a subclass is intented to override a
+    @Override // used to indicate that a method from a subclass is intented to override a
               // method in a superclass.
     public String toString() {
         return "ID: " + studentNo + " | Name: " + name + " | Year: " + yearOfStudy +
